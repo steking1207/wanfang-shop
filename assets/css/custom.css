@@ -1,6 +1,6 @@
 @charset "UTF-8";
 body {
-  background: url(../img/ui/bg-body.jpg) center 0 repeat-x #fff; }
+  background: url(../img/ui/bg-body.jpg) 0 0 no-repeat #fff; }
 
 a {
   -moz-transition: all 0.2s ease;
@@ -41,19 +41,21 @@ a.text-line:hover {
   max-height: 50px; }
 
 #header {
-  border-bottom: 1px solid #85af4b; }
+  border-bottom: 1px solid #dee2e6; }
 #header .container {
-  background: url(../img/ui/bg-header.png) 85% 100% no-repeat; }
+  background-image: url(../img/ui/bg-header.png);
+  background-position: 100% 100%;
+  background-repeat: no-repeat; }
 @media (max-width: 991.98px) {
   #header .container {
-    background: none; } }
+    background-image: none; } }
 #header .nav-link {
-  color: #6c757d; }
+  color: #495057; }
 #header .nav-link:hover {
   color: #000; }
 
 #footer {
-  background: #a5dbcd; }
+  background-color: rgba(80, 139, 180, 0.2); }
 #footer .nav-link {
   padding: .25rem 0;
   color: #6c757d;
@@ -89,7 +91,7 @@ a.text-line:hover {
   -webkit-box-shadow: 0 0 7px rgba(0, 0, 0, 0.2);
   box-shadow: 0 0 7px rgba(0, 0, 0, 0.2); }
 .item:hover div.btn-primary, .item:hover div.btn-outline-primary, .item:active div.btn-primary, .item:active div.btn-outline-primary, .item:focus div.btn-primary, .item:focus div.btn-outline-primary, .post .btn-info:hover div.btn-primary, .post .btn-info:hover div.btn-outline-primary, .post .btn-info:active div.btn-primary, .post .btn-info:active div.btn-outline-primary, .post .btn-info:focus div.btn-primary, .post .btn-info:focus div.btn-outline-primary, .border-hover:hover div.btn-primary, .border-hover:hover div.btn-outline-primary, .border-hover:active div.btn-primary, .border-hover:active div.btn-outline-primary, .border-hover:focus div.btn-primary, .border-hover:focus div.btn-outline-primary {
-  background-color: #85af4b;
+  background-color: #055c83;
   color: #fff; }
 
 .item {
@@ -129,7 +131,7 @@ a.text-line:hover {
   border-style: solid;
   border-width: 13px 0 12px 12px; }
 .item .badge.badge-primary:after, .item-media .badge.badge-primary:after {
-  border-color: transparent transparent transparent #85af4b; }
+  border-color: transparent transparent transparent #055c83; }
 .item .badge.badge-danger:after, .item-media .badge.badge-danger:after {
   border-color: transparent transparent transparent #dc3545; }
 .item .badge.badge-info:after, .item-media .badge.badge-info:after {
@@ -359,7 +361,7 @@ a.text-line:hover {
   top: 0;
   border-color: #ffb43e; }
 .progress-circle.progress-primary .progress-bar {
-  border-color: #85af4b; }
+  border-color: #055c83; }
 .progress-circle.progress-warning .progress-bar {
   border-color: #f90; }
 .progress-circle.progress-info .progress-bar {
@@ -625,7 +627,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 .nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus, .nav-tabs .nav-link:active, .nav-tabs .nav-link.active {
   margin-top: 0;
   background-color: rgba(255, 255, 255, 0.9);
-  border-top: 3px solid #85af4b; }
+  border-top: 3px solid #055c83; }
 
 .nav-index .nav-item {
   margin-left: 1rem;
@@ -635,8 +637,8 @@ Due to the split circle of progress-left and progress right, we must use the ani
   color: #343a40;
   border-bottom: 2px solid transparent; }
 .nav-index .nav-link:hover, .nav-index .nav-link:active, .nav-index .nav-link:focus, .nav-index .nav-link.active {
-  color: #85af4b;
-  border-bottom-color: #85af4b; }
+  color: #055c83;
+  border-bottom-color: #055c83; }
 
 .custom-select {
   -moz-appearance: window;
@@ -654,7 +656,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 .custom-button .custom-control-label::before {
   display: none; }
 .custom-button.custom-radio .custom-control-input:checked ~ .custom-control-label {
-  background: #85af4b;
+  background: #055c83;
   color: #fff; }
 .custom-button.custom-radio .custom-control-input:checked ~ .custom-control-label::before, .custom-button.custom-radio .custom-control-input:checked ~ .custom-control-label::after {
   display: none; }
@@ -699,7 +701,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
   height: 40px;
   background: #fff; }
 .btn-top:hover, .btn-top:active, .btn-top:focus {
-  background: #85af4b; }
+  background: #055c83; }
 
 .btn-primary {
   color: #fff; }
@@ -825,16 +827,16 @@ input[type="text"], input[type="email"], input[type="date"] {
   background-color: transparent; }
 
 .badge.badge-outlined.badge-primary {
-  border-color: #85af4b;
-  color: #85af4b; }
+  border-color: #055c83;
+  color: #055c83; }
 
 .badge.badge-outlined.badge-secondary {
   border-color: #6c757d;
   color: #6c757d; }
 
 .badge.badge-outlined.badge-success {
-  border-color: #85af4b;
-  color: #85af4b; }
+  border-color: #055c83;
+  color: #055c83; }
 
 .badge.badge-outlined.badge-warning {
   border-color: #f90;
